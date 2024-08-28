@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Admin Dashboard</h2>
+        <button id="logout">Logout</button>
+        <div id="admin-functions">
+            <button onclick="addMember()">Add Member</button>
+            <button onclick="viewMembers()">View/Update/Delete Members</button>
+            <button onclick="createBill()">Create Bills</button>
+            <button onclick="assignPackage()">Assign Fee Package</button>
+            <button onclick="sendNotification()">Send Monthly Notification</button>
+            <button onclick="exportReport()">Export Report</button>
+            <button onclick="supplementStore()">Supplement Store</button>
+            <button onclick="dietDetails()">Diet Details</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
